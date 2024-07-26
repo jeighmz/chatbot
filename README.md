@@ -1,13 +1,17 @@
 Ollama has advantages for prompting a knowledge base offline but at times can get very slow. It takes too long for it to be useful in a chatbot app.
 
-Response time average per model:
+Response time average per model locally:
 
 - llama-3-405b: 30 seconds
 - mistral-nemo: > 4 minutes
 
 Using cloud deployment offloads all the computation. 
 
+Response time average per model on cloud:
+
 - llama-3-405b-instruct: 3 seconds
+
+The amount of options to pick and choose on cloud is amazing. It gets expensive to scale, but using a free trial you can test with small token amounts on IBM Cloud. 
 
 Other available models:
 | Model                         | Path                                   |
