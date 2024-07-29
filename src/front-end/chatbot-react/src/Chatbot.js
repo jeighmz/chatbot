@@ -12,32 +12,33 @@ const Chatbot = () => {
 
   const handleSend = async () => {
     if (input.trim() === '') return;
-
+  
     const newMessages = [...messages, { text: input, isBot: false }];
     setMessages(newMessages);
     setInput('');
-
+  
     try {
-        const response = await axios.post('http://localhost:11434/api/generate', {
-            model: "llama3",
-            prompt: input,
-            stream: false
-        });
-
-      const botMessage = response.data.response;
+      const response = await axios.post('http://127.0.0.1:5000/generate', {
+        prompt: input
+      });
+  
+      const botMessage = response.data.generated_text;
       setMessages((prevMessages) => [
         ...prevMessages,
         { text: botMessage, isBot: true }
       ]);
     } catch (error) {
-      console.error('Error fetching response from Ollama Llama3 API:', error);
+      console.error('Error fetching response from the server:', error);
+      if (error.response) {
+        console.error('Server responded with:', error.response.data);
+      }
       setMessages((prevMessages) => [
         ...prevMessages,
         { text: 'Sorry, I am having trouble responding right now.', isBot: true }
       ]);
     }
   };
-
+  
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
       handleSend();
