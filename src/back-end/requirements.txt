@@ -1,2 +1,5 @@
 ibm_watsonx_ai
 python-dotenv
+flask
+flask-cors
+ibm-watson
