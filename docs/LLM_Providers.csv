@@ -1,0 +1,38 @@
+,Provider,Model,Release Date,Open Source
+OpenAI,,,,
+,OpenAI,GPT-4,March 2023,No
+,OpenAI,GPT-3.5,November 2022,No
+,OpenAI,GPT-3,June 2020,No
+Google DeepMind,,,,
+,Google DeepMind,Gemini 1,December 2023,No
+,Google DeepMind,BERT,October 2018,Yes
+,Google DeepMind,T5,October 2019,Yes
+Anthropic,,,,
+,Anthropic,Claude 1,March 2023,No
+,Anthropic,Claude 2,March 2024,No
+Meta,,,,
+,Meta,LLaMA,February 2023,Yes
+,Meta,LLaMA2,July 2023,Yes
+,Meta,LLaMA3,Expected 2024,Yes
+,Meta,RoBERTa,July 2019,Yes
+,Meta,BlenderBot,April 2020,Yes
+Microsoft,,,,
+,Microsoft,Turing-NLG,February 2020,No
+,Microsoft,GPT (OpenAI Collaboration),Integrated over time,No
+Amazon Web Services,,,,
+,Amazon Web Services,Amazon Bedrock,April 2023,No
+,Amazon Web Services,Alexa Teacher Model,November 2020,No
+Cohere,,,,
+,Cohere,Command R,April 2023,No
+,Cohere,Command X,September 2023,No
+AI21 Labs,,,,
+,AI21 Labs,Jurassic-2,October 2022,No
+Hugging Face,,,,
+,Hugging Face,BLOOM,July 2022,Yes
+EleutherAI,,,,
+,EleutherAI,GPT-Neo,March 2021,Yes
+,EleutherAI,GPT-J,June 2021,Yes
+,EleutherAI,GPT-NeoX,January 2022,Yes
+IBM Watson,,,,
+,IBM Watson,Watson Natural Language Understanding,February 2017,No
+,IBM Watson,WatsonX,May 2023,No
